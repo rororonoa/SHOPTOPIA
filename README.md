@@ -17,8 +17,8 @@ This is a basic front-end project where I’ve created a website clone using onl
    - For better results, consider learning **Bootstrap** or watching tutorials on YouTube.
 
 **About the Project:**
-
 This is my **first attempt** at a clone website: **Shoptopia.in**
+<br>
 Feel free to explore, learn, and modify it as you like.
 
 Thanks for checking it out — Happy Coding!
