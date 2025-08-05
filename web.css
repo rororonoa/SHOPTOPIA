@@ -1,0 +1,1257 @@
+*{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    color: yellow;
+}
+
+body{
+    background-color: #E2E7E6;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.bord{
+    border: 2px solid transparent;
+}
+
+.bord:hover{
+    border: 2px solid #FFC107;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    z-index: 1000;
+    background-color: darkblue;
+}
+
+.navlogo{
+    width: 175px;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 70px;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+.navlinks{
+    display: flex;
+    width: 400px;
+    gap: 40px;
+}
+
+.navitems{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.navitems i{
+   display: flex;
+   margin-right: 100px;
+   font-size: 17px;
+}
+
+.navitems span{
+    position: absolute;
+    width: 100px;
+    left: -100%;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: monospace;
+    white-space: nowrap;
+    transform: translateX(-5%);
+    transition: left 0.8s ease-in-out;
+}
+
+.navitems:hover span{
+   left: 35px;
+}
+
+.nav-search{
+    display: flex;
+    margin-left: 15px;
+    width: 100%;
+    max-width: 475px;
+    height: 50px;
+    border-radius: 9px;
+    box-sizing: border-box;
+    border: 4px solid transparent;
+}
+
+.nav-search:focus-within{
+    border: 4px solid #FFC107;
+    border-radius: 9px;
+}
+
+.nav-search select{
+    color: darkblue;
+    background-color: #F3F3F3;
+    width: 55px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.nav-search:hover select{
+    cursor: pointer;
+}
+
+.nav-search input{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-left: 15px;
+    color: black;
+}
+
+.search-ico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    font-size: 17px;
+    background-color: yellow;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 3px solid transparent;
+}
+
+.search-ico:hover{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #f7ea00;
+    cursor: pointer;
+}
+
+.search-ico i{
+    color: darkblue;
+}
+
+.navadd{
+    margin-left: 50px;
+    width: 120px;
+    height: 60px;
+}
+
+.addicon{
+    display: flex;
+}
+
+#st{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #FFC107;
+    font-family: 'Amazon Ember Display Medium', sans-serif;
+}
+
+#nd{
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Amazon Ember Display Medium', sans-serif;;
+}
+
+.addicon .fa-solid{
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.RO{
+    margin-left: 30px;
+    width: 105px;
+    height: 60px;
+}
+
+#RT{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFC107;
+    font-family: 'Amazon Ember Display Medium', sans-serif;;
+}
+
+#OD{
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Amazon Ember Display Medium', sans-serif;;
+}
+
+.panel{
+    position: relative;
+    top: 70px;
+    z-index: 500;
+    height: 40px;
+    background-color: #0eb1e8;
+    display: flex;
+    align-items: center;
+}
+
+.nav-all{
+    color: #001f3f;
+    font-size: 15px;
+    font-family: 'Amazon Ember Display Medium', sans-serif;
+    margin-top: 1px;
+    margin-left: 15px; 
+    width: 50px;
+    height: 32px;
+    gap: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.nav-all:hover{
+    border: 3px solid #001f3f;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav-all i{
+    color: #001f3f;
+    font-size: 14px;
+}
+
+.nav-ops{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    white-space: nowrap;
+}
+
+.nav-ops a{
+    color: #001f3f;
+    font-size: 15px;
+    font-family: 'Amazon Ember Medium', sans-serif;
+    text-decoration: none;
+}
+
+#SS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 32px;
+}
+
+#BS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 32px;
+}
+
+#TD{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 32px;
+}
+
+#MM{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 32px;
+}
+
+#CS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 32px;
+}
+
+#NR{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 32px;
+}
+
+#ES{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 32px;
+}
+
+#FS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 32px;
+}
+
+#CSS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 32px;
+}
+
+#CM{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 32px;
+}
+
+.hover-bord{
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.hover-bord:hover{
+    border: 3px solid #001f3f;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+
+.branding{
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    top: 70px;
+}
+
+.next{
+    display: flex;
+    width: 594%;
+    animation: slider 20s ease-in-out infinite;
+}
+
+.slide{
+    flex: 0 0 100vw;
+    height: 610px;
+    background-size:  cover;
+    background-repeat: no-repeat;
+}
+
+.slide:hover{
+    cursor: pointer;
+}
+
+.slide::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%; 
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 1) 100%);
+    pointer-events: none;
+}
+
+@keyframes slider{
+    0%, 15% {transform: translateX(0%);}
+    16%, 30% {transform: translateX(-100vw);}
+    31%, 45% {transform: translateX(-200vw);}
+    46%, 60% {transform: translateX(-300vw);}
+    61%, 75% {transform: translateX(-400vw);}
+    76%, 100% {transform: translateX(-500vw);}
+}
+
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100vw;
+    top: 47%;
+}
+
+.box{
+    color: black;
+    border: none;
+    height: 420px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.box1{
+    color: black;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+.box1 h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.grid0{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    row-gap: 30px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item:hover{
+    cursor: pointer;
+}
+
+.item div{
+    width: 155px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.AC{
+    background-image: url(CONTENT/ac.jpg);
+}
+
+.REF{
+    background-image: url(CONTENT/refrigerators.jpg);
+}
+
+.WM{
+    background-image: url(CONTENT/washingmachine.jpg);
+}
+
+.MCW{
+    background-image: url(CONTENT/microwaves.jpg);
+}
+
+.item span{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.see-more{
+    margin: 45px 0px 0px 10px;
+    height: 10px;
+}
+
+.see-more a{
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.see-more:hover a{
+    color: #2162A1;
+}
+
+.box2{
+    color: black;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+.box2 h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    row-gap: 30px;
+}
+
+.item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item1:hover{
+    cursor: pointer;
+}
+
+.item1 div{
+    width: 155px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.CC{
+    background-image: url(CONTENT/cushion.jpg);
+}
+
+.FF{
+    background-image: url(CONTENT/vases.jpg);
+}
+
+.HS{
+    background-image: url(CONTENT/homestorage.jpg);
+}
+
+.LS{
+    background-image: url(CONTENT/lighting.jpg);
+}
+
+.item1 span{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.explore-all{
+    margin: 53px 0px 0px 10px;
+    height: 10px;
+}
+
+.explore-all a{
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.explore-all:hover a{
+    color: #2162A1;
+}
+
+.box3{
+    color: black;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+.box3 h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    row-gap: 30px;
+}
+
+.item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item2:hover{
+    cursor: pointer;
+}
+
+.item2 div{
+    width: 155px;
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+}
+
+.BOAT{
+    background-image: url(CONTENT/boate.jpg);
+}
+
+.BOULT{
+    background-image: url(CONTENT/boult.jpg);
+}
+
+.NOISE{
+    background-image: url(CONTENT/noise.jpg);
+}
+
+.ZEBRO{
+    background-image: url(CONTENT/zebronics.jpg);
+}
+
+.item2 span{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.check-this{
+    margin: 50px 0px 0px 10px;
+    height: 10px;
+}
+
+.check-this a{
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.check-this:hover a{
+    color: #2162A1;
+}
+
+.box4{
+    color: black;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+.box4 h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 23px;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    row-gap: 30px;
+}
+
+.item3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item3:hover{
+    cursor: pointer;
+}
+
+.item3 div{
+    width: 155px;
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+}
+
+.CA{
+    background-image: url(CONTENT/glasscare.jpg);
+}
+
+.TR{
+    background-image: url(CONTENT/tyrecare.jpg);
+}
+
+.HL{
+    background-image: url(CONTENT/helmet.jpg);
+}
+
+.VC{
+    background-image: url(CONTENT/vaccum.jpg);
+}
+
+.item3 span{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.see-all{
+    margin: 28px 0px 0px 10px;
+    height: 10px;
+}
+
+.see-all a{
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.see-all:hover a{
+    color: #2162A1;
+}
+
+.shop1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-top: 12%;
+}
+
+.box5{
+    color: black;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+.box5 h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 23px;
+}
+
+.grid4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    row-gap: 30px;
+}
+
+.item4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item4:hover{
+    cursor: pointer;
+}
+
+.item4 div{
+    width: 155px;
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+}
+
+.PS5-DG{
+    background-image: url(CONTENT/ps5slimdigital.jpg);
+}
+
+.PS5-DC{
+    background-image: url(CONTENT/ps5slimdisc.jpg);
+}
+
+.PS5-FN{
+    background-image: url(CONTENT/ps5fortnite.jpg);
+}
+
+.PS5-DS{
+    background-image: url(CONTENT/ps5consoler.jpg);
+}
+
+.item4 span{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.see-deals{
+    margin: 28px 0px 0px 10px;
+    height: 10px;
+}
+
+.see-deals a{
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.see-deals:hover a{
+    color: #2162A1;
+}
+
+.box6{
+    color: black;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+.box6 h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.grid5{
+    display: grid;
+    grid-template-columns: repeat(1);
+    width: 100%;
+    row-gap: 30px;
+}
+
+.item5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item5:hover{
+    cursor: pointer;
+}
+
+.item5 div{
+    width: 335px;
+    height: 255px;
+    background-size: cover;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.launches{
+    background-image: url(CONTENT/launches.jpg);
+}
+
+.item5 span{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.see-offers{
+    margin: 55px 0px 0px 10px;
+    height: 10px;
+}
+
+.see-offers a{
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.see-offers:hover a{
+    color: #2162A1;
+}
+
+.box7{
+    color: black;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+.box7 h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 23px;
+}
+
+.grid6{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    row-gap: 30px;
+}
+
+.item6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item6:hover{
+    cursor: pointer;
+}
+
+.item6 div{
+    width: 155px;
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+}
+
+.SOT{
+    background-image: url(CONTENT/softtoys.jpg);
+}
+
+.UNO{
+background-image: url(CONTENT/uno.jpg);}
+
+.ROS{
+    background-image: url(CONTENT/rideons.jpg);
+}
+
+.COC{
+    background-image: url(CONTENT/controlcar.jpg);
+}
+
+.item6 span{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.see-fun{
+    margin: 28px 0px 0px 10px;
+    height: 10px;
+}
+
+.see-fun a{
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.see-fun:hover a{
+    color: #2162A1;
+}
+
+.box8{
+    color: black;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+.box8 h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 23px;
+}
+
+.grid7{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    row-gap: 30px;
+}
+
+.item7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item7:hover{
+    cursor: pointer;
+}
+
+.item7 div{
+    width: 150px;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+}
+
+.SSS{
+    background-image: url(CONTENT/smartspeakers.webp);
+}
+
+.WH{
+    background-image: url(CONTENT/wirelessheadphones.webp);
+}
+
+.LT{
+    background-image: url(CONTENT/laptops.webp);
+}
+
+.DF{
+    background-image: url(CONTENT/digitalfans.webp);
+}
+
+.item7 span{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.see-best{
+    margin: 28px 0px 0px 10px;
+    height: 10px;
+}
+
+.see-best a{
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.see-best:hover a{
+    color: #2162A1;
+}
+
+.sponsor{
+    width: 100vw;
+    margin-top: 20px;
+}
+
+.sponsorimg{
+    width: 330px;
+    margin-left: 40%;
+}
+
+.sponsorimg img{
+    display: block;
+    height: 400px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.sponsorimg span{
+    color: rgb(85, 85, 85);
+    margin-left: 75%;
+    font-size: 12px;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+.sponsorimg:hover span{
+    color: rgb(17, 17, 17);
+    cursor: pointer;
+}
+
+.sponsorimg .fa-solid{
+    color: rgb(85, 85, 85);
+    font-size: 10px;
+}
+
+.sponsorimg:hover .fa-solid{
+    color: rgb(17, 17, 17);
+    cursor: pointer;
+}
+
+.hbox{
+    display: flex;
+    width: 100vw;
+    margin-top: 20px;
+    padding: 0px 0px 20px 25px;
+}
+
+.hboxin{
+    color: black;
+    border: none;
+    height: 290px;
+    width: 96%;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.hboxin{
+    color: black;
+    padding: 25px 0px 0px 15px;
+}
+
+.hs{
+    display: flex;
+    gap: 20px;
+}
+
+.hs h2{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.sa{
+    color: #2162A1;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.sa:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.item8{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.item8:hover{
+    cursor: pointer;
+}
+
+.item8 div{
+    background-size: cover;
+    background-position: center;
+}
+
+.setup{
+    width: 250px;
+    height: 205px;
+    background-image: url(CONTENT/setupcpu.jpg);
+}
+
+.hometheater{
+    width: 275px;
+    height: 175px;
+    background-image: url(CONTENT/hometheaters.jpg);
+}
+
+.tataplay{
+    width: 230px;
+    height: 205px;
+    background-image: url(CONTENT/tataplay.jpg);
+}
+
+.bluetoothsk{
+    width: 160px;
+    height: 205px;
+    background-image: url(CONTENT/bluetoothsk.jpg);
+}
+
+.cpu{
+    width: 190px;
+    height: 200px;
+    background-image: url(CONTENT/cpu.jpg);
+}
+
+.sony{
+    width: 270px;
+    height: 135px;
+    background-image: url(CONTENT/sony.jpg);
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.footpanel1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #37475A;
+}
+
+.footpanel1 a{
+    color: white;
+    font-size: 14px;
+    font-weight: none;
+    text-decoration: none;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+.footpanel2{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222F3D;
+}
+
+ul{
+    margin-top: 15px;
+}
+
+ul p{
+    color: white;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+ul a{
+    display: block;
+    font-size: 14px;
+    color: #DDDDDD;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+ul:hover a{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footpanel3{
+    height: 100px;
+    background-color: #222F3D;
+    border-top: 0.1px solid;
+    border-color: rgba(255, 255, 255, 0.762);
+}
+
+.s-logo{
+    height: 50px;
+    width: 185px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-image: url(BRANDING/logo2.png);
+    background-size: cover;
+}
+
+.footpanel3 p{
+    color: #CCCCCC;
+    width: 95px;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+.footpanel3:hover p{
+    cursor: pointer;
+}
+
+.footpanel3 img{
+    width: 15px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.footpanel4{
+    color: white;
+    height: 90px;
+    background-color: #131A22;
+    font-family: 'Amazon Ember Medium', Arial, sans-serif;
+}
+
+.pages{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pages a{
+    font-size: 12px;
+    color: white;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.copyright{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.cs:hover{
+    text-decoration: underline;
+}
+
+.pn:hover{
+    text-decoration: underline;
+}
+
+.ib:hover{
+    text-decoration: underline;
+}
