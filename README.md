@@ -18,8 +18,7 @@ This is a basic front-end project where I’ve created a website clone using onl
 
 **About the Project:**
 
-This is my **first attempt** at a clone website: **Shoptopia.in**
-
-Feel free to explore, learn, and modify it as you like.
+    *This is my **first attempt** at a clone website: **Shoptopia.in**
+    *Feel free to explore, learn, and modify it as you like.
 
 Thanks for checking it out — Happy Coding!
