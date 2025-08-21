@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shoptopia.in</title>
+    <link rel="icon" type="png" href="logo0.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Redirect Transition Screen -->
+    <div class="redirect-overlay">
+    <div class="redirect-text">One Stop Endless Choices.</div>
+    </div>
+    <div class="container">
+      <!-- login form -->
+      <div class="form-box login">
+        <form action="">
+            <h1>login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" id="logusername" required>
+                <i class='bx bxs-user'></i>
+                <span class="error-msg" id="loginUserError"></span>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" id="logpassword" required>
+                <i class='bx bxs-lock-alt'></i>
+                <span class="error-msg" id="loginPassError"></span>
+            </div>
+            <div class="forgot-link">
+                <a href="#">forgot password?</a>
+            </div>
+            <button type="submit" class="btn" id="log">login</button>
+            <p>or login with social platforms</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-google' ></i></a>
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+        </form>
+      </div>
+
+      <!--Registration-->
+      <div class="form-box register">
+        <form action="">
+            <h1>Registration</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" id="regusername" required>
+                <i class='bx bxs-user'></i>
+                <span class="error-msg" id="regUserError"></span>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Email" id="regemail" required>
+                <i class='bx bxs-envelope'></i>
+                <span class="error-msg" id="regEmailError"></span>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" id="regpassword" required>
+                <i class='bx bxs-lock-alt'></i>
+                <span class="error-msg" id="regPassError"></span>
+            </div>
+            <button type="submit" class="btn" id="reg">Register</button>
+            <p>or Register with social platforms</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-google' ></i></a>
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+        </form>
+      </div>
+
+      <!--toggle-->
+      <div class="toggle-box">
+        <div class="transition-text">Shoptopia.in</div>
+         <div class="toggle-panel toggle-left">
+          <h1>Hello, Welcome!</h1>
+          <p>Don't have an account?</p>
+          <button class="btn register-btn">Register</button>
+         </div>
+         <div class="toggle-panel toggle-right">
+          <h1>Welcome Back!</h1>
+          <p>Already have an account?</p>
+          <button class="btn login-btn">Login</button>
+         </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
