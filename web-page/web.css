@@ -448,19 +448,19 @@ body::-webkit-scrollbar{
 }
 
 .AC{
-    background-image: url(CONTENT/ac.jpg);
+    background-image: url(../CONTENT/ac.jpg);
 }
 
 .REF{
-    background-image: url(CONTENT/refrigerators.jpg);
+    background-image: url(../CONTENT/refrigerators.jpg);
 }
 
 .WM{
-    background-image: url(CONTENT/washingmachine.jpg);
+    background-image: url(../CONTENT/washingmachine.jpg);
 }
 
 .MCW{
-    background-image: url(CONTENT/microwaves.jpg);
+    background-image: url(../CONTENT/microwaves.jpg);
 }
 
 .item span{
@@ -521,19 +521,19 @@ body::-webkit-scrollbar{
 }
 
 .CC{
-    background-image: url(CONTENT/cushion.jpg);
+    background-image: url(../CONTENT/cushion.jpg);
 }
 
 .FF{
-    background-image: url(CONTENT/vases.jpg);
+    background-image: url(../CONTENT/vases.jpg);
 }
 
 .HS{
-    background-image: url(CONTENT/homestorage.jpg);
+    background-image: url(../CONTENT/homestorage.jpg);
 }
 
 .LS{
-    background-image: url(CONTENT/lighting.jpg);
+    background-image: url(../CONTENT/lighting.jpg);
 }
 
 .item1 span{
@@ -594,19 +594,19 @@ body::-webkit-scrollbar{
 }
 
 .BOAT{
-    background-image: url(CONTENT/boate.jpg);
+    background-image: url(../CONTENT/boate.jpg);
 }
 
 .BOULT{
-    background-image: url(CONTENT/boult.jpg);
+    background-image: url(../CONTENT/boult.jpg);
 }
 
 .NOISE{
-    background-image: url(CONTENT/noise.jpg);
+    background-image: url(../CONTENT/noise.jpg);
 }
 
 .ZEBRO{
-    background-image: url(CONTENT/zebronics.jpg);
+    background-image: url(../CONTENT/zebronics.jpg);
 }
 
 .item2 span{
@@ -667,19 +667,19 @@ body::-webkit-scrollbar{
 }
 
 .CA{
-    background-image: url(CONTENT/glasscare.jpg);
+    background-image: url(../CONTENT/glasscare.jpg);
 }
 
 .TR{
-    background-image: url(CONTENT/tyrecare.jpg);
+    background-image: url(../CONTENT/tyrecare.jpg);
 }
 
 .HL{
-    background-image: url(CONTENT/helmet.jpg);
+    background-image: url(../CONTENT/helmet.jpg);
 }
 
 .VC{
-    background-image: url(CONTENT/vaccum.jpg);
+    background-image: url(../CONTENT/vaccum.jpg);
 }
 
 .item3 span{
@@ -747,19 +747,19 @@ body::-webkit-scrollbar{
 }
 
 .PS5-DG{
-    background-image: url(CONTENT/ps5slimdigital.jpg);
+    background-image: url(../CONTENT/ps5slimdigital.jpg);
 }
 
 .PS5-DC{
-    background-image: url(CONTENT/ps5slimdisc.jpg);
+    background-image: url(../CONTENT/ps5slimdisc.jpg);
 }
 
 .PS5-FN{
-    background-image: url(CONTENT/ps5fortnite.jpg);
+    background-image: url(../CONTENT/ps5fortnite.jpg);
 }
 
 .PS5-DS{
-    background-image: url(CONTENT/ps5consoler.jpg);
+    background-image: url(../CONTENT/ps5consoler.jpg);
 }
 
 .item4 span{
@@ -823,7 +823,7 @@ body::-webkit-scrollbar{
 }
 
 .launches{
-    background-image: url(CONTENT/launches.jpg);
+    background-image: url(../CONTENT/launches.jpg);
 }
 
 .item5 span{
@@ -884,18 +884,18 @@ body::-webkit-scrollbar{
 }
 
 .SOT{
-    background-image: url(CONTENT/softtoys.jpg);
+    background-image: url(../CONTENT/softtoys.jpg);
 }
 
 .UNO{
-background-image: url(CONTENT/uno.jpg);}
+background-image: url(../CONTENT/uno.jpg);}
 
 .ROS{
-    background-image: url(CONTENT/rideons.jpg);
+    background-image: url(../CONTENT/rideons.jpg);
 }
 
 .COC{
-    background-image: url(CONTENT/controlcar.jpg);
+    background-image: url(../CONTENT/controlcar.jpg);
 }
 
 .item6 span{
@@ -956,19 +956,19 @@ background-image: url(CONTENT/uno.jpg);}
 }
 
 .SSS{
-    background-image: url(CONTENT/smartspeakers.webp);
+    background-image: url(../CONTENT/smartspeakers.webp);
 }
 
 .WH{
-    background-image: url(CONTENT/wirelessheadphones.webp);
+    background-image: url(../CONTENT/wirelessheadphones.webp);
 }
 
 .LT{
-    background-image: url(CONTENT/laptops.webp);
+    background-image: url(../CONTENT/laptops.webp);
 }
 
 .DF{
-    background-image: url(CONTENT/digitalfans.webp);
+    background-image: url(../CONTENT/digitalfans.webp);
 }
 
 .item7 span{
@@ -1092,37 +1092,37 @@ background-image: url(CONTENT/uno.jpg);}
 .setup{
     width: 250px;
     height: 205px;
-    background-image: url(CONTENT/setupcpu.jpg);
+    background-image: url(../CONTENT/setupcpu.jpg);
 }
 
 .hometheater{
     width: 275px;
     height: 175px;
-    background-image: url(CONTENT/hometheaters.jpg);
+    background-image: url(../CONTENT/hometheaters.jpg);
 }
 
 .tataplay{
     width: 230px;
     height: 205px;
-    background-image: url(CONTENT/tataplay.jpg);
+    background-image: url(../CONTENT/tataplay.jpg);
 }
 
 .bluetoothsk{
     width: 160px;
     height: 205px;
-    background-image: url(CONTENT/bluetoothsk.jpg);
+    background-image: url(../CONTENT/bluetoothsk.jpg);
 }
 
 .cpu{
     width: 190px;
     height: 200px;
-    background-image: url(CONTENT/cpu.jpg);
+    background-image: url(../CONTENT/cpu.jpg);
 }
 
 .sony{
     width: 270px;
     height: 135px;
-    background-image: url(CONTENT/sony.jpg);
+    background-image: url(../CONTENT/sony.jpg);
 }
 
 footer{
@@ -1188,7 +1188,7 @@ ul:hover a{
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
-    background-image: url(BRANDING/logo2.png);
+    background-image: url(../BRANDING/logo2.png);
     background-size: cover;
 }
 

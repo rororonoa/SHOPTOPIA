@@ -64,7 +64,7 @@ document.getElementById("log").addEventListener("click", function (event) {
     }, 2200);
 
     setTimeout(() => {
-      window.location.href = "../web.html";
+      window.location.href = "../web-page/web.html";
     }, 3000);
   }
 });
@@ -116,7 +116,7 @@ document.getElementById("reg").addEventListener("click", function (event) {
     }, 2200);
 
     setTimeout(() => {
-      window.location.href = "../web.html";
+      window.location.href = "../web-page/web.html";
     }, 3000);
   }
 });
