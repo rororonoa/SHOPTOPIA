@@ -31,7 +31,7 @@ body::-webkit-scrollbar{
     height: 70px;
     top: 0;
     z-index: 1000;
-    background-color: darkblue;
+    background: linear-gradient(135deg,#6a11cb, #2575fc, #8b2cff, #ff416c, #ff4b2b);
 }
 
 .navlogo{
@@ -210,7 +210,7 @@ body::-webkit-scrollbar{
     top: 70px;
     z-index: 500;
     height: 40px;
-    background-color: #0eb1e8;
+    background: linear-gradient(135deg, #ff4b2b, #8e54e9, #2575fc);
     display: flex;
     align-items: center;
 }
