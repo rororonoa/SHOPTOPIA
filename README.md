@@ -27,7 +27,7 @@ I’ve added a **Login Page with smooth transition effects** ✨
 
 1. Copy the code and open it in your preferred IDE (**VS Code recommended**).
 2. Check the structure carefully — I’ve added multiple images.
-3. Most images are taken from the Amazon website (I’ll try to include them all soon).
+3. Most images are taken from the Amazon website (All included here!).
 
 ---
 
