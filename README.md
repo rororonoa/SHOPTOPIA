@@ -13,6 +13,13 @@ I’ve added a **Login Page with smooth transition effects** ✨
 * Includes modern sliding panels
 * Animated background gradients
 * Clean and user-friendly design
+* ✅ Uploaded all images (fully working online now)
+
+---
+
+## 🌍 Live Demo
+
+👉 Check out the live site here: [My Website on GitHub Pages](https://rororonoa.github.io/SHOPTOPIA/)
 
 ---
 
