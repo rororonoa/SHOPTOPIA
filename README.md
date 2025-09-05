@@ -19,7 +19,7 @@ I’ve added a **Login Page with smooth transition effects** ✨
 
 ## 🌍 Live Demo
 
-👉 Check out the live site here: [My Website on GitHub Pages](https://rororonoa.github.io/SHOPTOPIA/)
+👉 Check out the live site here: [shoptopia.in](https://rororonoa.github.io/SHOPTOPIA/)
 
 ---
 
